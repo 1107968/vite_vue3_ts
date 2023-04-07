@@ -4,7 +4,7 @@
   <button @click="updateName">修改store中的name</button>
   <hr />
 
-  <n-button>naive-ui</n-button>
+  <n-button type="primary">naive-ui</n-button>
 </template>
 
 <script setup lang="ts">

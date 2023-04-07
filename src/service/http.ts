@@ -21,7 +21,7 @@ axios.interceptors.request.use(
 )
 // 响应拦截
 axios.interceptors.response.use((res) => {
-  if (res.data.code === 111) {
+  if (res.data.code === 401) {
     sessionStorage.setItem('token', '')
     // token过期操作
   }
